@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6931355424:AAGhJGGFrffzPNyp-fsUmZQridfGUdA8vFA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6558062496:AAGJP0Uu4eC23bICwW-dvTb8vYzYnJ_NkSQ")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26396448"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26396448"))
 API_HASH = os.environ.get("API_HASH", "97ec9506574e5110d2a221109f9d7cb1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002007003826"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002092494740"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5113588348"))
@@ -29,10 +29,10 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://roottest718:Dfv2AEwsYH63mRUb@cluster0.245yr2j.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "BoobieDiaries_bot")
+DB_NAME = os.environ.get("DATABASE_NAME", "onlyleakzz_bot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002026340324"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002126074372"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6968641742)
+ADMINS.append(1390131208)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
